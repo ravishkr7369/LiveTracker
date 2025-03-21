@@ -25,7 +25,7 @@ io.on("connection", (socket) => {
 	});
 });
 
-app.get("/track", (req, res) => {
+app.get("/", (req, res) => {
 	res.render("index.ejs");
 });
 
